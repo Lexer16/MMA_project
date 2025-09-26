@@ -1,0 +1,286 @@
+{
+  "model_info": {
+    "model_path": "./models/catboost_ufc_model_20250924_153419.pkl",
+    "model_type": "CatBoostClassifier",
+    "training_date": "20250924_153419",
+    "feature_names": [
+      "title_bout",
+      "B_avg_KD",
+      "B_avg_opp_KD",
+      "B_avg_SIG_STR_pct",
+      "B_avg_opp_SIG_STR_pct",
+      "B_avg_TD_pct",
+      "B_avg_opp_TD_pct",
+      "B_avg_SUB_ATT",
+      "B_avg_opp_SUB_ATT",
+      "B_avg_REV",
+      "B_avg_opp_REV",
+      "B_avg_SIG_STR_att",
+      "B_avg_SIG_STR_landed",
+      "B_avg_opp_SIG_STR_att",
+      "B_avg_opp_SIG_STR_landed",
+      "B_avg_TOTAL_STR_att",
+      "B_avg_TOTAL_STR_landed",
+      "B_avg_opp_TOTAL_STR_att",
+      "B_avg_opp_TOTAL_STR_landed",
+      "B_avg_TD_att",
+      "B_avg_TD_landed",
+      "B_avg_opp_TD_att",
+      "B_avg_opp_TD_landed",
+      "B_avg_HEAD_att",
+      "B_avg_HEAD_landed",
+      "B_avg_opp_HEAD_att",
+      "B_avg_opp_HEAD_landed",
+      "B_avg_BODY_att",
+      "B_avg_BODY_landed",
+      "B_avg_opp_BODY_att",
+      "B_avg_opp_BODY_landed",
+      "B_avg_LEG_att",
+      "B_avg_LEG_landed",
+      "B_avg_opp_LEG_att",
+      "B_avg_opp_LEG_landed",
+      "B_avg_DISTANCE_att",
+      "B_avg_DISTANCE_landed",
+      "B_avg_opp_DISTANCE_att",
+      "B_avg_opp_DISTANCE_landed",
+      "B_avg_CLINCH_att",
+      "B_avg_CLINCH_landed",
+      "B_avg_opp_CLINCH_att",
+      "B_avg_opp_CLINCH_landed",
+      "B_avg_GROUND_att",
+      "B_avg_GROUND_landed",
+      "B_avg_opp_GROUND_att",
+      "B_avg_opp_GROUND_landed",
+      "B_avg_CTRL_time(seconds)",
+      "B_avg_opp_CTRL_time(seconds)",
+      "B_total_time_fought(seconds)",
+      "B_total_rounds_fought",
+      "B_total_title_bouts",
+      "B_current_win_streak",
+      "B_current_lose_streak",
+      "B_longest_win_streak",
+      "B_wins",
+      "B_losses",
+      "B_draw",
+      "B_win_by_Decision_Majority",
+      "B_win_by_Decision_Split",
+      "B_win_by_Decision_Unanimous",
+      "B_win_by_KO/TKO",
+      "B_win_by_Submission",
+      "B_win_by_TKO_Doctor_Stoppage",
+      "B_Height_cms",
+      "B_Reach_cms",
+      "B_Weight_lbs",
+      "R_avg_KD",
+      "R_avg_opp_KD",
+      "R_avg_SIG_STR_pct",
+      "R_avg_opp_SIG_STR_pct",
+      "R_avg_TD_pct",
+      "R_avg_opp_TD_pct",
+      "R_avg_SUB_ATT",
+      "R_avg_opp_SUB_ATT",
+      "R_avg_REV",
+      "R_avg_opp_REV",
+      "R_avg_SIG_STR_att",
+      "R_avg_SIG_STR_landed",
+      "R_avg_opp_SIG_STR_att",
+      "R_avg_opp_SIG_STR_landed",
+      "R_avg_TOTAL_STR_att",
+      "R_avg_TOTAL_STR_landed",
+      "R_avg_opp_TOTAL_STR_att",
+      "R_avg_opp_TOTAL_STR_landed",
+      "R_avg_TD_att",
+      "R_avg_TD_landed",
+      "R_avg_opp_TD_att",
+      "R_avg_opp_TD_landed",
+      "R_avg_HEAD_att",
+      "R_avg_HEAD_landed",
+      "R_avg_opp_HEAD_att",
+      "R_avg_opp_HEAD_landed",
+      "R_avg_BODY_att",
+      "R_avg_BODY_landed",
+      "R_avg_opp_BODY_att",
+      "R_avg_opp_BODY_landed",
+      "R_avg_LEG_att",
+      "R_avg_LEG_landed",
+      "R_avg_opp_LEG_att",
+      "R_avg_opp_LEG_landed",
+      "R_avg_DISTANCE_att",
+      "R_avg_DISTANCE_landed",
+      "R_avg_opp_DISTANCE_att",
+      "R_avg_opp_DISTANCE_landed",
+      "R_avg_CLINCH_att",
+      "R_avg_CLINCH_landed",
+      "R_avg_opp_CLINCH_att",
+      "R_avg_opp_CLINCH_landed",
+      "R_avg_GROUND_att",
+      "R_avg_GROUND_landed",
+      "R_avg_opp_GROUND_att",
+      "R_avg_opp_GROUND_landed",
+      "R_avg_CTRL_time(seconds)",
+      "R_avg_opp_CTRL_time(seconds)",
+      "R_total_time_fought(seconds)",
+      "R_total_rounds_fought",
+      "R_total_title_bouts",
+      "R_current_win_streak",
+      "R_current_lose_streak",
+      "R_longest_win_streak",
+      "R_wins",
+      "R_losses",
+      "R_draw",
+      "R_win_by_Decision_Majority",
+      "R_win_by_Decision_Split",
+      "R_win_by_Decision_Unanimous",
+      "R_win_by_KO/TKO",
+      "R_win_by_Submission",
+      "R_win_by_TKO_Doctor_Stoppage",
+      "R_Height_cms",
+      "R_Reach_cms",
+      "R_Weight_lbs",
+      "B_age",
+      "R_age",
+      "year",
+      "month",
+      "weight_class_Bantamweight",
+      "weight_class_CatchWeight",
+      "weight_class_Featherweight",
+      "weight_class_Flyweight",
+      "weight_class_Heavyweight",
+      "weight_class_LightHeavyweight",
+      "weight_class_Lightweight",
+      "weight_class_Middleweight",
+      "weight_class_OpenWeight",
+      "weight_class_Welterweight",
+      "weight_class_WomenBantamweight",
+      "weight_class_WomenFeatherweight",
+      "weight_class_WomenFlyweight",
+      "weight_class_WomenStrawweight",
+      "R_Stance_Open Stance",
+      "R_Stance_Orthodox",
+      "R_Stance_Sideways",
+      "R_Stance_Southpaw",
+      "R_Stance_Switch",
+      "B_Stance_Open Stance",
+      "B_Stance_Orthodox",
+      "B_Stance_Sideways",
+      "B_Stance_Southpaw",
+      "B_Stance_Switch"
+    ],
+    "target_name": "target",
+    "n_features": 161,
+    "best_params": {
+      "border_count": 32,
+      "depth": 8,
+      "iterations": 500,
+      "l2_leaf_reg": 3,
+      "learning_rate": 0.03
+    }
+  },
+  "performance_metrics": {
+    "best_cv_auc": 0.720573240337695,
+    "test_accuracy": 0.6875529212531752,
+    "test_roc_auc": 0.7488677151993735,
+    "test_precision_0": 0.5465116279069767,
+    "test_recall_0": 0.24415584415584415,
+    "test_f1_0": 0.3375224416517056,
+    "test_precision_1": 0.711595639246779,
+    "test_recall_1": 0.9020100502512562,
+    "test_f1_1": 0.7955678670360111
+  },
+  "data_info": {
+    "train_shape": [
+      4721,
+      161
+    ],
+    "test_shape": [
+      1181,
+      161
+    ],
+    "target_distribution": {
+      "1": 3979,
+      "0": 1923
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "year",
+      "importance": 19.96194573862856
+    },
+    {
+      "feature": "R_age",
+      "importance": 2.7325507392564834
+    },
+    {
+      "feature": "B_age",
+      "importance": 2.3678038581437986
+    },
+    {
+      "feature": "R_avg_opp_SIG_STR_pct",
+      "importance": 1.654677140360452
+    },
+    {
+      "feature": "month",
+      "importance": 1.5668259036556216
+    },
+    {
+      "feature": "R_avg_opp_CTRL_time(seconds)",
+      "importance": 1.4208661945233105
+    },
+    {
+      "feature": "R_avg_SIG_STR_pct",
+      "importance": 1.2878163774803042
+    },
+    {
+      "feature": "B_Reach_cms",
+      "importance": 1.244136879925897
+    },
+    {
+      "feature": "R_avg_SUB_ATT",
+      "importance": 1.0937651406632873
+    },
+    {
+      "feature": "R_avg_opp_TD_att",
+      "importance": 1.093416266882746
+    },
+    {
+      "feature": "B_avg_TD_att",
+      "importance": 1.0768104753008187
+    },
+    {
+      "feature": "R_avg_TD_landed",
+      "importance": 1.037209018618919
+    },
+    {
+      "feature": "R_avg_CLINCH_landed",
+      "importance": 1.0121095139858012
+    },
+    {
+      "feature": "B_avg_opp_GROUND_att",
+      "importance": 0.969671101747587
+    },
+    {
+      "feature": "R_avg_HEAD_landed",
+      "importance": 0.9493510645613781
+    },
+    {
+      "feature": "R_avg_opp_SUB_ATT",
+      "importance": 0.9315004976732197
+    },
+    {
+      "feature": "R_avg_opp_CLINCH_landed",
+      "importance": 0.9071832474885153
+    },
+    {
+      "feature": "R_Reach_cms",
+      "importance": 0.8725141029750034
+    },
+    {
+      "feature": "R_avg_opp_TD_pct",
+      "importance": 0.8549176303117791
+    },
+    {
+      "feature": "R_avg_opp_KD",
+      "importance": 0.8014237145650895
+    }
+  ]
+}
