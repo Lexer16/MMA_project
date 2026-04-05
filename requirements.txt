@@ -1,11 +1,10 @@
-scikit-learn==1.5.1
-plotly==5.24.1
-joblib==1.4.2
+joblib==1.3.0
 seaborn==0.13.2
-imbalanced-learn==0.12.3
+imblearn
 setuptools>=65.0.0
 catboost==1.2.8
 streamlit==1.35.0
 pandas==2.2.2
 numpy==1.26.4
-pillow>=10.4.0
+scikit-learn==1.5.1
+plotly==5.24.1
